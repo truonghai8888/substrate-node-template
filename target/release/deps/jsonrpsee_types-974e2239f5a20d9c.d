@@ -1,0 +1,11 @@
+/home/truonghai/substrate-node-template/target/release/deps/jsonrpsee_types-974e2239f5a20d9c.rmeta: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/params.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/request.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/response.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/error.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libjsonrpsee_types-974e2239f5a20d9c.rlib: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/params.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/request.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/response.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/error.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/jsonrpsee_types-974e2239f5a20d9c.d: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/params.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/request.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/response.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/error.rs
+
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/lib.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/params.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/request.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/response.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpsee-types-0.13.1/src/error.rs:

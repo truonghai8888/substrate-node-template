@@ -1,0 +1,34 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-W4" "-Fo\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\lz4-sys-e44aa3e5b7953cef\\out\\liblz4/lib/lz4.o" "-c" "liblz4/lib/lz4.c"
+lz4.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-W4" "-Fo\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\lz4-sys-e44aa3e5b7953cef\\out\\liblz4/lib/lz4frame.o" "-c" "liblz4/lib/lz4frame.c"
+lz4frame.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-W4" "-Fo\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\lz4-sys-e44aa3e5b7953cef\\out\\liblz4/lib/lz4hc.o" "-c" "liblz4/lib/lz4hc.c"
+lz4hc.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-W4" "-Fo\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\lz4-sys-e44aa3e5b7953cef\\out\\liblz4/lib/xxhash.o" "-c" "liblz4/lib/xxhash.c"
+xxhash.c
+exit code: 0
+exit code: 0
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\lib.exe" "-out:\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\lz4-sys-e44aa3e5b7953cef\\out\\liblz4.a" "-nologo" "\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\lz4-sys-e44aa3e5b7953cef\\out\\liblz4/lib/lz4.o" "\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\lz4-sys-e44aa3e5b7953cef\\out\\liblz4/lib/lz4frame.o" "\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\lz4-sys-e44aa3e5b7953cef\\out\\liblz4/lib/lz4hc.o" "\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\lz4-sys-e44aa3e5b7953cef\\out\\liblz4/lib/xxhash.o"
+exit code: 0
+cargo:rustc-link-lib=static=lz4
+cargo:rustc-link-search=native=\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\lz4-sys-e44aa3e5b7953cef\out
+cargo:root=\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\lz4-sys-e44aa3e5b7953cef\out

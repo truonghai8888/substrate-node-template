@@ -1,0 +1,10 @@
+/home/truonghai/substrate-node-template/target/release/deps/libp2p_request_response-3110339096127c3e.rmeta: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/codec.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/handler.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/handler/protocol.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/liblibp2p_request_response-3110339096127c3e.rlib: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/codec.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/handler.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/handler/protocol.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libp2p_request_response-3110339096127c3e.d: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/codec.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/handler.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/handler/protocol.rs
+
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/lib.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/codec.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/handler.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-request-response-0.18.0/src/handler/protocol.rs:

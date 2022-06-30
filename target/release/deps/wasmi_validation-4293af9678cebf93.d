@@ -1,0 +1,11 @@
+/home/truonghai/substrate-node-template/target/release/deps/wasmi_validation-4293af9678cebf93.rmeta: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/stack.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/context.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/func.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/util.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libwasmi_validation-4293af9678cebf93.rlib: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/stack.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/context.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/func.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/util.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/wasmi_validation-4293af9678cebf93.d: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/stack.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/context.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/func.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/util.rs
+
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/lib.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/stack.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/context.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/func.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/wasmi-validation-0.4.1/src/util.rs:

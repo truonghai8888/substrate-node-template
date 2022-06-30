@@ -1,0 +1,16 @@
+/home/truonghai/substrate-node-template/target/release/deps/prost_build-3aadee3c573dedd3.rmeta: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/ast.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/code_generator.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/extern_paths.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/ident.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/message_graph.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/path.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libprost_build-3aadee3c573dedd3.rlib: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/ast.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/code_generator.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/extern_paths.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/ident.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/message_graph.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/path.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/prost_build-3aadee3c573dedd3.d: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/ast.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/code_generator.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/extern_paths.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/ident.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/message_graph.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/path.rs
+
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/lib.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/ast.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/code_generator.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/extern_paths.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/ident.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/message_graph.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/src/path.rs:
+
+# env-dep:PROTOC=/usr/bin/protoc
+# env-dep:PROTOC_INCLUDE=/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.10.4/third-party/include

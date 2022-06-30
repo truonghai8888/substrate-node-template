@@ -1,0 +1,13 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\tracing-2c29c6ab102ed986.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\macros.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\dispatcher.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\field.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\instrument.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\level_filters.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\span.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\stdlib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\subscriber.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\tracing-2c29c6ab102ed986.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\macros.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\dispatcher.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\field.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\instrument.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\level_filters.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\span.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\stdlib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\subscriber.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\macros.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\dispatcher.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\field.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\instrument.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\level_filters.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\span.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\stdlib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.34\src\subscriber.rs:

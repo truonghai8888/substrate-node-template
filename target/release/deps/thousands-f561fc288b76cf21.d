@@ -1,0 +1,12 @@
+/home/truonghai/substrate-node-template/target/release/deps/thousands-f561fc288b76cf21.rmeta: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/digits.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/policies.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/traits.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/display.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/helpers.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libthousands-f561fc288b76cf21.rlib: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/digits.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/policies.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/traits.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/display.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/helpers.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/thousands-f561fc288b76cf21.d: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/digits.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/policies.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/traits.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/display.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/helpers.rs
+
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/lib.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/digits.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/policies.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/traits.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/display.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/thousands-0.2.0/src/helpers.rs:

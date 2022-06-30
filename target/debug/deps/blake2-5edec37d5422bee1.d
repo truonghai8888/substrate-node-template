@@ -1,0 +1,13 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\blake2-5edec37d5422bee1.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\as_bytes.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\consts.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simd_opt.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simdint.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simdop.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simdty.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\macros.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\blake2-5edec37d5422bee1.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\as_bytes.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\consts.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simd_opt.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simdint.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simdop.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simdty.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\macros.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\as_bytes.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\consts.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simd_opt.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simdint.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simdop.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\simd\simdty.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\blake2-0.10.4\src\macros.rs:

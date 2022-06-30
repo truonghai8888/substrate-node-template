@@ -1,0 +1,11 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\futures_task-d3e02d1ea3c7440c.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\spawn.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\arc_wake.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\waker.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\waker_ref.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\future_obj.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\noop_waker.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\futures_task-d3e02d1ea3c7440c.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\spawn.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\arc_wake.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\waker.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\waker_ref.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\future_obj.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\noop_waker.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\spawn.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\arc_wake.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\waker.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\waker_ref.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\future_obj.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.21\src\noop_waker.rs:

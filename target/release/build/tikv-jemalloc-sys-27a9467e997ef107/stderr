@@ -1,0 +1,170 @@
+src/jemalloc.c:2988:7: warning: ‘__libc_calloc’ specifies less restrictive attributes than its target ‘calloc’: ‘alloc_size’, ‘leaf’, ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 2988 | void *__libc_calloc(size_t n, size_t size) PREALIAS(je_calloc);
+      |       ^~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:542:14: note: ‘__libc_calloc’ target declared here
+  542 | extern void *calloc (size_t __nmemb, size_t __size)
+      |              ^~~~~~
+src/jemalloc.c:3003:7: warning: ‘__libc_valloc’ specifies less restrictive attributes than its target ‘valloc’: ‘alloc_size’, ‘leaf’, ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 3003 | void *__libc_valloc(size_t size) PREALIAS(je_valloc);
+      |       ^~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:574:14: note: ‘__libc_valloc’ target declared here
+  574 | extern void *valloc (size_t __size) __THROW __attribute_malloc__
+      |              ^~~~~~
+src/jemalloc.c:3000:7: warning: ‘__libc_realloc’ specifies less restrictive attributes than its target ‘realloc’: ‘alloc_size’, ‘leaf’, ‘nothrow’ [-Wmissing-attributes]
+ 3000 | void *__libc_realloc(void* ptr, size_t size) PREALIAS(je_realloc);
+      |       ^~~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:550:14: note: ‘__libc_realloc’ target declared here
+  550 | extern void *realloc (void *__ptr, size_t __size)
+      |              ^~~~~~~
+src/jemalloc.c:2997:7: warning: ‘__libc_memalign’ specifies less restrictive attributes than its target ‘memalign’: ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 2997 | void *__libc_memalign(size_t align, size_t s) PREALIAS(je_memalign);
+      |       ^~~~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_preamble.h:21,
+                 from src/jemalloc.c:2:
+include/jemalloc/internal/../jemalloc.h:83:23: note: ‘__libc_memalign’ target declared here
+   83 | #  define je_memalign memalign
+      |                       ^~~~~~~~
+src/jemalloc.c:2887:1: note: in expansion of macro ‘je_memalign’
+ 2887 | je_memalign(size_t alignment, size_t size) {
+      | ^~~~~~~~~~~
+src/jemalloc.c:2994:7: warning: ‘__libc_malloc’ specifies less restrictive attributes than its target ‘malloc’: ‘alloc_size’, ‘leaf’, ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 2994 | void *__libc_malloc(size_t size) PREALIAS(je_malloc);
+      |       ^~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:539:14: note: ‘__libc_malloc’ target declared here
+  539 | extern void *malloc (size_t __size) __THROW __attribute_malloc__
+      |              ^~~~~~
+src/jemalloc.c:2991:6: warning: ‘__libc_free’ specifies less restrictive attributes than its target ‘free’: ‘leaf’, ‘nothrow’ [-Wmissing-attributes]
+ 2991 | void __libc_free(void* ptr) PREALIAS(je_free);
+      |      ^~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:565:13: note: ‘__libc_free’ target declared here
+  565 | extern void free (void *__ptr) __THROW;
+      |             ^~~~
+src/jemalloc.c:2988:7: warning: ‘__libc_calloc’ specifies less restrictive attributes than its target ‘calloc’: ‘alloc_size’, ‘leaf’, ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 2988 | void *__libc_calloc(size_t n, size_t size) PREALIAS(je_calloc);
+      |       ^~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:542:14: note: ‘__libc_calloc’ target declared here
+  542 | extern void *calloc (size_t __nmemb, size_t __size)
+      |              ^~~~~~
+src/jemalloc.c:3003:7: warning: ‘__libc_valloc’ specifies less restrictive attributes than its target ‘valloc’: ‘alloc_size’, ‘leaf’, ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 3003 | void *__libc_valloc(size_t size) PREALIAS(je_valloc);
+      |       ^~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:574:14: note: ‘__libc_valloc’ target declared here
+  574 | extern void *valloc (size_t __size) __THROW __attribute_malloc__
+      |              ^~~~~~
+src/jemalloc.c:3000:7: warning: ‘__libc_realloc’ specifies less restrictive attributes than its target ‘realloc’: ‘alloc_size’, ‘leaf’, ‘nothrow’ [-Wmissing-attributes]
+ 3000 | void *__libc_realloc(void* ptr, size_t size) PREALIAS(je_realloc);
+      |       ^~~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:550:14: note: ‘__libc_realloc’ target declared here
+  550 | extern void *realloc (void *__ptr, size_t __size)
+      |              ^~~~~~~
+src/jemalloc.c:2997:7: warning: ‘__libc_memalign’ specifies less restrictive attributes than its target ‘memalign’: ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 2997 | void *__libc_memalign(size_t align, size_t s) PREALIAS(je_memalign);
+      |       ^~~~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_preamble.h:21,
+                 from src/jemalloc.c:2:
+include/jemalloc/internal/../jemalloc.h:83:23: note: ‘__libc_memalign’ target declared here
+   83 | #  define je_memalign memalign
+      |                       ^~~~~~~~
+src/jemalloc.c:2887:1: note: in expansion of macro ‘je_memalign’
+ 2887 | je_memalign(size_t alignment, size_t size) {
+      | ^~~~~~~~~~~
+src/jemalloc.c:2994:7: warning: ‘__libc_malloc’ specifies less restrictive attributes than its target ‘malloc’: ‘alloc_size’, ‘leaf’, ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 2994 | void *__libc_malloc(size_t size) PREALIAS(je_malloc);
+      |       ^~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:539:14: note: ‘__libc_malloc’ target declared here
+  539 | extern void *malloc (size_t __size) __THROW __attribute_malloc__
+      |              ^~~~~~
+src/jemalloc.c:2991:6: warning: ‘__libc_free’ specifies less restrictive attributes than its target ‘free’: ‘leaf’, ‘nothrow’ [-Wmissing-attributes]
+ 2991 | void __libc_free(void* ptr) PREALIAS(je_free);
+      |      ^~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:565:13: note: ‘__libc_free’ target declared here
+  565 | extern void free (void *__ptr) __THROW;
+      |             ^~~~
+src/jemalloc.c:2988:7: warning: ‘__libc_calloc’ specifies less restrictive attributes than its target ‘calloc’: ‘alloc_size’, ‘leaf’, ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 2988 | void *__libc_calloc(size_t n, size_t size) PREALIAS(je_calloc);
+      |       ^~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:542:14: note: ‘__libc_calloc’ target declared here
+  542 | extern void *calloc (size_t __nmemb, size_t __size)
+      |              ^~~~~~
+src/jemalloc.c:3003:7: warning: ‘__libc_valloc’ specifies less restrictive attributes than its target ‘valloc’: ‘alloc_size’, ‘leaf’, ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 3003 | void *__libc_valloc(size_t size) PREALIAS(je_valloc);
+      |       ^~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:574:14: note: ‘__libc_valloc’ target declared here
+  574 | extern void *valloc (size_t __size) __THROW __attribute_malloc__
+      |              ^~~~~~
+src/jemalloc.c:3000:7: warning: ‘__libc_realloc’ specifies less restrictive attributes than its target ‘realloc’: ‘alloc_size’, ‘leaf’, ‘nothrow’ [-Wmissing-attributes]
+ 3000 | void *__libc_realloc(void* ptr, size_t size) PREALIAS(je_realloc);
+      |       ^~~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:550:14: note: ‘__libc_realloc’ target declared here
+  550 | extern void *realloc (void *__ptr, size_t __size)
+      |              ^~~~~~~
+src/jemalloc.c:2997:7: warning: ‘__libc_memalign’ specifies less restrictive attributes than its target ‘memalign’: ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 2997 | void *__libc_memalign(size_t align, size_t s) PREALIAS(je_memalign);
+      |       ^~~~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_preamble.h:21,
+                 from src/jemalloc.c:2:
+include/jemalloc/internal/../jemalloc.h:83:23: note: ‘__libc_memalign’ target declared here
+   83 | #  define je_memalign memalign
+      |                       ^~~~~~~~
+src/jemalloc.c:2887:1: note: in expansion of macro ‘je_memalign’
+ 2887 | je_memalign(size_t alignment, size_t size) {
+      | ^~~~~~~~~~~
+src/jemalloc.c:2994:7: warning: ‘__libc_malloc’ specifies less restrictive attributes than its target ‘malloc’: ‘alloc_size’, ‘leaf’, ‘malloc’, ‘nothrow’ [-Wmissing-attributes]
+ 2994 | void *__libc_malloc(size_t size) PREALIAS(je_malloc);
+      |       ^~~~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:539:14: note: ‘__libc_malloc’ target declared here
+  539 | extern void *malloc (size_t __size) __THROW __attribute_malloc__
+      |              ^~~~~~
+src/jemalloc.c:2991:6: warning: ‘__libc_free’ specifies less restrictive attributes than its target ‘free’: ‘leaf’, ‘nothrow’ [-Wmissing-attributes]
+ 2991 | void __libc_free(void* ptr) PREALIAS(je_free);
+      |      ^~~~~~~~~~~
+In file included from include/jemalloc/internal/jemalloc_internal_decls.h:63,
+                 from include/jemalloc/internal/jemalloc_preamble.h:5,
+                 from src/jemalloc.c:2:
+/usr/include/stdlib.h:565:13: note: ‘__libc_free’ target declared here
+  565 | extern void free (void *__ptr) __THROW;
+      |             ^~~~
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')

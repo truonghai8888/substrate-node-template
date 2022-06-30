@@ -1,0 +1,11 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\prost_derive-d8b09d9bbbd19cec.dll: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\group.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\map.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\message.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\oneof.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\scalar.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\prost_derive-d8b09d9bbbd19cec.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\group.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\map.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\message.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\oneof.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\scalar.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\mod.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\group.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\map.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\message.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\oneof.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\prost-derive-0.10.1\src\field\scalar.rs:

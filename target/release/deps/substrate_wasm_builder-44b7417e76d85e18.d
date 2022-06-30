@@ -1,0 +1,10 @@
+/home/truonghai/substrate-node-template/target/release/deps/substrate_wasm_builder-44b7417e76d85e18.rmeta: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/builder.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/prerequisites.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/wasm_project.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libsubstrate_wasm_builder-44b7417e76d85e18.rlib: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/builder.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/prerequisites.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/wasm_project.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/substrate_wasm_builder-44b7417e76d85e18.d: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/builder.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/prerequisites.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/wasm_project.rs
+
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/lib.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/builder.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/prerequisites.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/utils/wasm-builder/src/wasm_project.rs:

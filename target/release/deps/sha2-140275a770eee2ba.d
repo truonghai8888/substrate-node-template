@@ -1,0 +1,12 @@
+/home/truonghai/substrate-node-template/target/release/deps/sha2-140275a770eee2ba.rmeta: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/consts.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha256.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha256_utils.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha512.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha512_utils.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libsha2-140275a770eee2ba.rlib: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/consts.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha256.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha256_utils.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha512.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha512_utils.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/sha2-140275a770eee2ba.d: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/consts.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha256.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha256_utils.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha512.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha512_utils.rs
+
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/lib.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/consts.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha256.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha256_utils.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha512.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.8.2/src/sha512_utils.rs:

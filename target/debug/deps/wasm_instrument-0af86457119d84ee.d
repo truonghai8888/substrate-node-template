@@ -1,0 +1,10 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\wasm_instrument-0af86457119d84ee.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\export_globals.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\gas_metering\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\stack_limiter\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\stack_limiter\max_height.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\stack_limiter\thunk.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\wasm_instrument-0af86457119d84ee.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\export_globals.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\gas_metering\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\stack_limiter\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\stack_limiter\max_height.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\stack_limiter\thunk.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\export_globals.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\gas_metering\mod.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\stack_limiter\mod.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\stack_limiter\max_height.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-instrument-0.1.1\src\stack_limiter\thunk.rs:

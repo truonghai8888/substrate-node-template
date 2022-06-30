@@ -1,0 +1,11 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\generic_array-4837e5e8c834c812.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\hex.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\impls.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\arr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\functional.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\iter.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\sequence.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\generic_array-4837e5e8c834c812.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\hex.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\impls.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\arr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\functional.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\iter.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\sequence.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\hex.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\impls.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\arr.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\functional.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\iter.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.12.4\src\sequence.rs:

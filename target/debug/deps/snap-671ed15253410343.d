@@ -1,0 +1,20 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\snap-671ed15253410343.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\bytes.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\compress.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\crc32.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\crc32_table.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\decompress.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\error.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\frame.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\raw.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\read.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\tag.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\write.rs \\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\snap-e6d1ddc0509edbca\out/crc32_table.rs \\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\snap-e6d1ddc0509edbca\out/tag.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\snap-671ed15253410343.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\bytes.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\compress.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\crc32.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\crc32_table.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\decompress.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\error.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\frame.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\raw.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\read.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\tag.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\write.rs \\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\snap-e6d1ddc0509edbca\out/crc32_table.rs \\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\snap-e6d1ddc0509edbca\out/tag.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\bytes.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\compress.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\crc32.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\crc32_table.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\decompress.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\error.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\frame.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\raw.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\read.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\tag.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\snap-1.0.5\src\write.rs:
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\snap-e6d1ddc0509edbca\out/crc32_table.rs:
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\snap-e6d1ddc0509edbca\out/tag.rs:
+
+# env-dep:OUT_DIR=\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\snap-e6d1ddc0509edbca\\out

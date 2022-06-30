@@ -1,0 +1,13 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\widestring-a4b05ab9344b4fb5.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\error.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\iter.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\platform\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\platform\windows.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ucstr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ucstring.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ustr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ustring.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\widestring-a4b05ab9344b4fb5.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\error.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\iter.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\platform\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\platform\windows.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ucstr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ucstring.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ustr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ustring.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\error.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\iter.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\platform\mod.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\platform\windows.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ucstr.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ucstring.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ustr.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.5.1\src\ustring.rs:

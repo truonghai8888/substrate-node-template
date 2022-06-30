@@ -1,0 +1,12 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\tt_call-73deeb6231607c77.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\predicate.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\replace.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\expr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\path.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\ty.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\unexpected.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\tt_call-73deeb6231607c77.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\predicate.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\replace.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\expr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\path.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\ty.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\unexpected.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\predicate.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\replace.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\mod.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\expr.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\path.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\rust\ty.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\tt-call-1.0.8\src\unexpected.rs:

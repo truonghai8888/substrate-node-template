@@ -1,0 +1,14 @@
+/home/truonghai/substrate-node-template/target/release/deps/sc_sysinfo-4018f6f5f24f3681.rmeta: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/sysinfo.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/sysinfo_linux.rs /home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_os.txt /home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_arch.txt /home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_env.txt
+
+/home/truonghai/substrate-node-template/target/release/deps/libsc_sysinfo-4018f6f5f24f3681.rlib: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/sysinfo.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/sysinfo_linux.rs /home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_os.txt /home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_arch.txt /home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_env.txt
+
+/home/truonghai/substrate-node-template/target/release/deps/sc_sysinfo-4018f6f5f24f3681.d: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/sysinfo.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/sysinfo_linux.rs /home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_os.txt /home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_arch.txt /home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_env.txt
+
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/lib.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/sysinfo.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/sysinfo/src/sysinfo_linux.rs:
+/home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_os.txt:
+/home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_arch.txt:
+/home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out/target_env.txt:
+
+# env-dep:OUT_DIR=/home/truonghai/substrate-node-template/target/release/build/sc-sysinfo-fb31aa8684bf56a7/out

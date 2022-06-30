@@ -1,0 +1,4 @@
+[0m[0m[1m[32m   Compiling[0m pallet-template v4.0.0-dev (/home/truonghai/substrate-node-template/pallets/template)
+[0m[0m[1m[32m   Compiling[0m node-template-runtime v4.0.0-dev (/home/truonghai/substrate-node-template/runtime)
+[0m[0m[1m[32m   Compiling[0m node-template-runtime-wasm v1.0.0 (/home/truonghai/substrate-node-template/target/release/wbuild/node-template-runtime)
+[0m[0m[1m[32m    Finished[0m release [optimized] target(s) in 12.33s

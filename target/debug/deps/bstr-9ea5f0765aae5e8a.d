@@ -1,0 +1,15 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\bstr-9ea5f0765aae5e8a.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\ascii.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\bstr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\bstring.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\byteset\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\byteset\scalar.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\ext_slice.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\ext_vec.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\impls.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\io.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\utf8.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\bstr-9ea5f0765aae5e8a.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\ascii.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\bstr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\bstring.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\byteset\mod.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\byteset\scalar.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\ext_slice.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\ext_vec.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\impls.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\io.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\utf8.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\ascii.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\bstr.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\bstring.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\byteset\mod.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\byteset\scalar.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\ext_slice.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\ext_vec.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\impls.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\io.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\bstr-0.2.17\src\utf8.rs:

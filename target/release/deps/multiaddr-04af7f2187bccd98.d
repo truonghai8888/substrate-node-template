@@ -1,0 +1,11 @@
+/home/truonghai/substrate-node-template/target/release/deps/multiaddr-04af7f2187bccd98.rmeta: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/protocol.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/onion_addr.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/errors.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/from_url.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libmultiaddr-04af7f2187bccd98.rlib: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/protocol.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/onion_addr.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/errors.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/from_url.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/multiaddr-04af7f2187bccd98.d: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/protocol.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/onion_addr.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/errors.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/from_url.rs
+
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/lib.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/protocol.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/onion_addr.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/errors.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/multiaddr-0.14.0/src/from_url.rs:

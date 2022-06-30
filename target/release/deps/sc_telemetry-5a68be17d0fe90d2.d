@@ -1,0 +1,11 @@
+/home/truonghai/substrate-node-template/target/release/deps/sc_telemetry-5a68be17d0fe90d2.rmeta: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/endpoints.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/error.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/node.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/transport.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libsc_telemetry-5a68be17d0fe90d2.rlib: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/endpoints.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/error.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/node.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/transport.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/sc_telemetry-5a68be17d0fe90d2.d: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/endpoints.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/error.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/node.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/transport.rs
+
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/lib.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/endpoints.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/error.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/node.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/client/telemetry/src/transport.rs:

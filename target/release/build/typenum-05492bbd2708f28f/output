@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/truonghai/substrate-node-template/target/release/build/typenum-05492bbd2708f28f/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/truonghai/substrate-node-template/target/release/build/typenum-05492bbd2708f28f/out/op.rs

@@ -1,0 +1,14 @@
+/home/truonghai/substrate-node-template/target/release/deps/ss58_registry-82721f5fed774955.rmeta: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/address_format.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/error.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/registry.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/token.rs /home/truonghai/substrate-node-template/target/release/build/ss58-registry-ef776dbc5ba9a641/out/registry_gen.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libss58_registry-82721f5fed774955.rlib: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/address_format.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/error.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/registry.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/token.rs /home/truonghai/substrate-node-template/target/release/build/ss58-registry-ef776dbc5ba9a641/out/registry_gen.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/ss58_registry-82721f5fed774955.d: /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/lib.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/address_format.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/error.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/registry.rs /home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/token.rs /home/truonghai/substrate-node-template/target/release/build/ss58-registry-ef776dbc5ba9a641/out/registry_gen.rs
+
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/lib.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/address_format.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/error.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/registry.rs:
+/home/truonghai/.cargo/registry/src/github.com-1ecc6299db9ec823/ss58-registry-1.19.0/src/token.rs:
+/home/truonghai/substrate-node-template/target/release/build/ss58-registry-ef776dbc5ba9a641/out/registry_gen.rs:
+
+# env-dep:OUT_DIR=/home/truonghai/substrate-node-template/target/release/build/ss58-registry-ef776dbc5ba9a641/out
