@@ -1,0 +1,1 @@
+/home/truonghai/substrate-node-template/target/release/libpallet_loosely_coupling.rlib: /home/truonghai/substrate-node-template/pallets/loosely-coupling/src/lib.rs /home/truonghai/substrate-node-template/pallets/template/src/lib.rs

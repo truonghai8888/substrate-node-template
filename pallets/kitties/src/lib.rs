@@ -2,7 +2,11 @@
 
 pub use pallet::*;
 
-use frame_support::pallet_prelude::*;
+// use frame_support::pallet_prelude::*;
+use frame_support::{
+	pallet_prelude::*,
+	traits::{tokens::ExistenceRequirement, Currency, Randomness},
+};
 use frame_system::pallet_prelude::*;
 use sp_std::vec::Vec;
 use sp_runtime::ArithmeticError;
@@ -15,11 +19,12 @@ pub mod pallet {
 	#[derive(TypeInfo, Default, Encode, Decode)]
 	#[scale_info(skip_type_params(T))]
 
+	type BalanceOf<T> = <<T as Config>::Currency as Currency<<T as frame_system::Config>::AccountId>>::Balance;
 	pub struct Kitty<T: Config> {
 		// Using 16 bytes to represent a kitty DNA
 		pub dna: Vec<u8>,
 		// `None` assumes not for sale
-		pub price: u32,
+		pub price: Option<BalanceOf<T>>,
 		pub gender: Gender,
 		pub owner: T::AccountId,
 	}
@@ -49,6 +54,9 @@ pub mod pallet {
 	pub trait Config: frame_system::Config {
 		/// Because this pallet emits events, it depends on the runtime's definition of an event.
 		type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
+
+		/// The Currency handler for the kitties pallet.
+		type Currency: Currency<Self::AccountId>;
 	}
 
 	// Errors
@@ -79,11 +87,11 @@ pub mod pallet {
 		/// A new kitty was successfully created.
 		Created { kitty: Vec<u8>, owner: T::AccountId },
 		/// The price of a kitty was successfully set.
-		PriceSet { kitty: Vec<u8>, price: u32 },
+		PriceSet { kitty: Vec<u8>, price: Option<BalanceOf<T>> },
 		/// A kitty was successfully transferred.
 		Transferred { from: T::AccountId, to: T::AccountId, kitty: Vec<u8> },
 		/// A kitty was successfully sold.
-		Sold { seller: T::AccountId, buyer: T::AccountId, kitty: Vec<u8>, price: u32 },
+		Sold { seller: T::AccountId, buyer: T::AccountId, kitty: Vec<u8>, price: BalanceOf<T> },
 	}
 
 	/// Keeps track of the number of kitties in existence.
@@ -113,6 +121,8 @@ pub mod pallet {
 		pub fn create_kitty(origin: OriginFor<T>, dna:Vec<u8>) -> DispatchResult {
 			// Make sure the caller is from a signed origin
 			let who = ensure_signed(origin)?;
+
+			log::info!("total balance: {:?}", T::Currency::total_balance(&who));
 
 			let gender = Self::gen_gender(dna.clone())?;
 			// Write new kitty to storage by calling helper function
@@ -159,7 +169,7 @@ pub mod pallet {
 			gender: Gender,
 		) -> Result<Vec<u8>, DispatchError> {
 			// Create a new object
-			let kitty = Kitty::<T> { dna: dna.clone(), price: 0, gender, owner: owner.clone() };
+			let kitty = Kitty::<T> { dna: dna.clone(), price: None, gender, owner: owner.clone() };
 
 			// Check if the kitty does not already exist in our storage map
 			ensure!(!Kitties::<T>::contains_key(&kitty.dna), Error::<T>::DuplicateKitty);
@@ -207,7 +217,7 @@ pub mod pallet {
 
 			// Transfer succeeded, update the kitty owner and reset the price to `None`.
 			kitty.owner = to.clone();
-			kitty.price = 0;
+			kitty.price = None;
 
 			// Write updates to storage
 			Kitties::<T>::insert(&dna, kitty);
