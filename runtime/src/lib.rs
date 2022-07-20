@@ -295,6 +295,7 @@ construct_runtime!(
 		TemplateModule: pallet_template,
 		Demo: pallet_demo,
 		Kitties: pallet_kitties,
+		// Kitties: pallet_kitties::{Pallet, Call, Config<T>, Storage, Event<T>},
 	}
 );
 
