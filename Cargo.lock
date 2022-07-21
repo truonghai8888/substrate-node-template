@@ -4047,6 +4047,7 @@ dependencies = [
 name = "pallet-kitties"
 version = "4.0.0-dev"
 dependencies = [
+ "chrono",
  "frame-benchmarking",
  "frame-support",
  "frame-system",

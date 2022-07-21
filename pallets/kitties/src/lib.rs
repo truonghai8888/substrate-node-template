@@ -5,21 +5,28 @@ pub use pallet::*;
 // use frame_support::pallet_prelude::*;
 use frame_support::{
 	pallet_prelude::*,
-	traits::{tokens::ExistenceRequirement, Currency, Randomness},
+	traits::{Currency, Randomness, Time},
 };
 use frame_system::pallet_prelude::*;
 use sp_std::vec::Vec;
+// use chrono::prelude::*;
 use sp_runtime::ArithmeticError;
+use sp_io::hashing::blake2_128;
 use scale_info::TypeInfo;
 
 #[frame_support::pallet]
 pub mod pallet {
 	pub use super::*;
 
-	#[derive(TypeInfo, Default, Encode, Decode)]
-	#[scale_info(skip_type_params(T))]
-
+	#[cfg(feature = "std")]
+	use frame_support::serde::{Deserialize, Serialize};
 	type BalanceOf<T> = <<T as Config>::Currency as Currency<<T as frame_system::Config>::AccountId>>::Balance;
+	// type MomentOf<T> = <<T as Config>::Time as Time<<T as frame_system::Config>>>::Moment;
+	type MomentOf<T> = <<T as Config>::Time as Time>::Moment;
+
+	#[derive(TypeInfo, Default, Encode, Decode)]
+	// #[derive(Clone, Encode, Decode, PartialEq, RuntimeDebug, TypeInfo, MaxEncodedLen)]
+	#[scale_info(skip_type_params(T))]
 	pub struct Kitty<T: Config> {
 		// Using 16 bytes to represent a kitty DNA
 		pub dna: Vec<u8>,
@@ -27,6 +34,7 @@ pub mod pallet {
 		pub price: Option<BalanceOf<T>>,
 		pub gender: Gender,
 		pub owner: T::AccountId,
+		pub created_date: MomentOf<T>,
 	}
 	pub type Id = u32;
 	pub type Dna = Vec<u8>;
@@ -57,6 +65,14 @@ pub mod pallet {
 
 		/// The Currency handler for the kitties pallet.
 		type Currency: Currency<Self::AccountId>;
+
+		type Time: Time;
+		/// The maximum amount of kitties a single account can own.
+		#[pallet::constant]
+		type MaxKittiesOwned: Get<u32>;
+
+		/// The type of Randomness we want to specify for this pallet.
+		type KittyRandomness: Randomness<Self::Hash, Self::BlockNumber>;
 	}
 
 	// Errors
@@ -108,7 +124,7 @@ pub mod pallet {
 		_,
 		Blake2_128Concat,
 		T::AccountId,
-		Vec<Vec<u8>>,
+		BoundedVec<Vec<u8>, T::MaxKittiesOwned>,
 		ValueQuery,
 	>;
 
@@ -118,11 +134,12 @@ pub mod pallet {
 		///
 		/// The actual kitty creation is done in the `mint()` function.
 		#[pallet::weight(0)]
-		pub fn create_kitty(origin: OriginFor<T>, dna:Vec<u8>) -> DispatchResult {
+		pub fn create_kitty(origin: OriginFor<T>) -> DispatchResult {
 			// Make sure the caller is from a signed origin
 			let who = ensure_signed(origin)?;
 
-			log::info!("total balance: {:?}", T::Currency::total_balance(&who));
+			// log::info!("total balance: {:?}", T::Currency::total_balance(&who));
+			let dna = Self::gen_dna()?;
 
 			let gender = Self::gen_gender(dna.clone())?;
 			// Write new kitty to storage by calling helper function
@@ -153,6 +170,20 @@ pub mod pallet {
 	//** Our helper functions.**//
 
 	impl<T: Config> Pallet<T> {
+		fn gen_dna() -> Result<Vec<u8>, Error<T>> {
+			let random = T::KittyRandomness::random(&b"dna"[..]).0;
+			let unique_payload = (
+				random,
+				frame_system::Pallet::<T>::extrinsic_index().unwrap_or_default(),
+				frame_system::Pallet::<T>::block_number(),
+			);
+			// Ok(<(<T as frame_system::Config>::Hash, u32, <T as frame_system::Config>::BlockNumber) as parity_scale_codec::Decode>::decode(unique_payload))
+			// Ok((<T as frame_system::Config>::Hash, u32, <T as frame_system::Config>::BlockNumber)::decode())
+			Ok(unique_payload.encode())
+			// blake2_128(&encoded_payload)
+		}
+
+
 		fn gen_gender(dna: Vec<u8>) -> Result<Gender, Error<T>> {
 			let mut res = Gender::Male;
 			if dna.len() % 2 != 0 {
@@ -168,8 +199,16 @@ pub mod pallet {
 			dna: Vec<u8>,
 			gender: Gender,
 		) -> Result<Vec<u8>, DispatchError> {
+			let current_time = T::Time::now();
+			// let current_time: DateTime<Local> = Local::now();
 			// Create a new object
-			let kitty = Kitty::<T> { dna: dna.clone(), price: None, gender, owner: owner.clone() };
+			let kitty = Kitty::<T> {
+				 dna: dna.clone(),
+				 price: None,
+				 gender,
+				 owner: owner.clone(),
+				 created_date: current_time,
+				};
 
 			// Check if the kitty does not already exist in our storage map
 			ensure!(!Kitties::<T>::contains_key(&kitty.dna), Error::<T>::DuplicateKitty);
@@ -179,7 +218,9 @@ pub mod pallet {
 			let new_count = count.checked_add(1).ok_or(ArithmeticError::Overflow)?;
 
 			// Append kitty to KittiesOwned
-			KittiesOwned::<T>::append(&owner, kitty.dna.clone());
+			// KittiesOwned::<T>::append(&owner, kitty.dna.clone());
+			KittiesOwned::<T>::try_append(&owner, kitty.dna.clone())
+				.map_err(|_| Error::<T>::TooManyOwned)?;
 
 			// Write new kitty to storage
 			Kitties::<T>::insert(kitty.dna.clone(), kitty);
@@ -213,7 +254,7 @@ pub mod pallet {
 
 			// Add kitty to the list of owned kitties.
 			let mut to_owned = KittiesOwned::<T>::get(&to);
-			to_owned.push(dna.clone());
+			to_owned.try_push(dna.clone()).map_err(|()| Error::<T>::TooManyOwned)?;
 
 			// Transfer succeeded, update the kitty owner and reset the price to `None`.
 			kitty.owner = to.clone();

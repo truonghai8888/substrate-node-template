@@ -272,13 +272,14 @@ impl pallet_template::Config for Runtime {
 
 impl pallet_demo::Config for Runtime {
 	type Event = Event;
-	type Currency = Balances;
-	type KittyRandomness = RandomnessCollectiveFlip;
-	type MaxKittiesOwned = ConstU32<100>;
 }
 
 impl pallet_kitties::Config for Runtime {
 	type Event = Event;
+	type Currency = Balances;
+	type KittyRandomness = RandomnessCollectiveFlip;
+	type MaxKittiesOwned = ConstU32<5>;
+	type Time = Timestamp;
 }
 
 impl pallet_tightly_coupling::Config for Runtime {
