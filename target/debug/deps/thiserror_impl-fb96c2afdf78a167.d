@@ -1,0 +1,12 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\thiserror_impl-fb96c2afdf78a167.dll: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\ast.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\attr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\expand.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\fmt.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\generics.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\prop.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\valid.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\thiserror_impl-fb96c2afdf78a167.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\ast.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\attr.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\expand.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\fmt.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\generics.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\prop.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\valid.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\ast.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\attr.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\expand.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\fmt.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\generics.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\prop.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.31\src\valid.rs:

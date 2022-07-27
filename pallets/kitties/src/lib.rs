@@ -2,9 +2,19 @@
 
 pub use pallet::*;
 
+#[cfg(test)]
+mod mock;
+
+#[cfg(test)]
+mod tests;
+
+#[cfg(feature = "runtime-benchmarks")]
+mod benchmarking;
+
 // use frame_support::pallet_prelude::*;
 use frame_support::{
 	pallet_prelude::*,
+	dispatch::fmt,
 	traits::{Currency, Randomness, Time},
 };
 use frame_system::pallet_prelude::*;
@@ -35,6 +45,17 @@ pub mod pallet {
 		pub gender: Gender,
 		pub owner: T::AccountId,
 		pub created_date: MomentOf<T>,
+	}
+
+	impl<T:Config> fmt::Debug for Kitty<T> {
+		fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+			f.debug_struct("Kitty")
+			 .field("dna", &self.dna)
+			 .field("gender", &self.gender)
+			 .field("owner", &self.owner)
+			 .field("created_date", &self.created_date)
+			 .finish()
+		}
 	}
 	pub type Id = u32;
 	pub type Dna = Vec<u8>;
@@ -112,14 +133,17 @@ pub mod pallet {
 
 	/// Keeps track of the number of kitties in existence.
 	#[pallet::storage]
+	#[pallet::getter(fn count_for_kitties)]
 	pub(super) type CountForKitties<T: Config> = StorageValue<_, u64, ValueQuery>;
 
 	/// Maps the kitty struct to the kitty DNA.
 	#[pallet::storage]
+	#[pallet::getter(fn get_kitty)]
 	pub(super) type Kitties<T: Config> = StorageMap<_, Blake2_128Concat, Vec<u8>, Kitty<T>>;
 
 	/// Track the kitties owned by each account.
 	#[pallet::storage]
+	#[pallet::getter(fn kitties_owned)]
 	pub(super) type KittiesOwned<T: Config> = StorageMap<
 		_,
 		Blake2_128Concat,
@@ -133,7 +157,7 @@ pub mod pallet {
 		/// Create a new unique kitty.
 		///
 		/// The actual kitty creation is done in the `mint()` function.
-		#[pallet::weight(0)]
+		#[pallet::weight(43_435_000 + T::DbWeight::get().reads_writes(6, 3))]
 		pub fn create_kitty(origin: OriginFor<T>) -> DispatchResult {
 			// Make sure the caller is from a signed origin
 			let who = ensure_signed(origin)?;
@@ -152,7 +176,7 @@ pub mod pallet {
 		///
 		/// Any account that holds a kitty can send it to another Account. This will reset the
 		/// asking price of the kitty, marking it not for sale.
-		#[pallet::weight(0)]
+		#[pallet::weight(29_147_000 + T::DbWeight::get().reads_writes(3, 3))]
 		pub fn transfer(
 			origin: OriginFor<T>,
 			to: T::AccountId,
@@ -177,10 +201,7 @@ pub mod pallet {
 				frame_system::Pallet::<T>::extrinsic_index().unwrap_or_default(),
 				frame_system::Pallet::<T>::block_number(),
 			);
-			// Ok(<(<T as frame_system::Config>::Hash, u32, <T as frame_system::Config>::BlockNumber) as parity_scale_codec::Decode>::decode(unique_payload))
-			// Ok((<T as frame_system::Config>::Hash, u32, <T as frame_system::Config>::BlockNumber)::decode())
 			Ok(unique_payload.encode())
-			// blake2_128(&encoded_payload)
 		}
 
 
@@ -212,7 +233,8 @@ pub mod pallet {
 
 			// Check if the kitty does not already exist in our storage map
 			ensure!(!Kitties::<T>::contains_key(&kitty.dna), Error::<T>::DuplicateKitty);
-
+			
+			log::info!("Kitties: {:?}", &kitty);
 			// Performs this operation first as it may fail
 			let count = CountForKitties::<T>::get();
 			let new_count = count.checked_add(1).ok_or(ArithmeticError::Overflow)?;

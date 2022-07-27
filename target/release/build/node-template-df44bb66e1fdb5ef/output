@@ -1,0 +1,4 @@
+cargo:rustc-env=SUBSTRATE_CLI_IMPL_VERSION=4.0.0-dev-b76005641db
+cargo:rerun-if-changed=/home/truonghai/substrate-node-template/.git/HEAD
+cargo:rerun-if-changed=/home/truonghai/substrate-node-template/.git/refs/heads/main
+

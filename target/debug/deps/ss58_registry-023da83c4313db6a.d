@@ -1,0 +1,14 @@
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\ss58_registry-023da83c4313db6a.rmeta: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\address_format.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\error.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\registry.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\token.rs \\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\ss58-registry-1032f1b05917101d\out/registry_gen.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\libss58_registry-023da83c4313db6a.rlib: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\address_format.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\error.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\registry.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\token.rs \\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\ss58-registry-1032f1b05917101d\out/registry_gen.rs
+
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\deps\ss58_registry-023da83c4313db6a.d: C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\lib.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\address_format.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\error.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\registry.rs C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\token.rs \\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\ss58-registry-1032f1b05917101d\out/registry_gen.rs
+
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\address_format.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\error.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\registry.rs:
+C:\Users\ASUS\.cargo\registry\src\github.com-1ecc6299db9ec823\ss58-registry-1.19.0\src\token.rs:
+\\wsl$\Ubuntu\home\truonghai\substrate-node-template\target\debug\build\ss58-registry-1032f1b05917101d\out/registry_gen.rs:
+
+# env-dep:OUT_DIR=\\\\wsl$\\Ubuntu\\home\\truonghai\\substrate-node-template\\target\\debug\\build\\ss58-registry-1032f1b05917101d\\out

@@ -1,4 +1,3 @@
-[0m[0m[1m[32m   Compiling[0m pallet-kitties v4.0.0-dev (/home/truonghai/substrate-node-template/pallets/kitties)
 [0m[1m[33mwarning[0m[0m[1m: unused import: `frame_support::dispatch::fmt`[0m
 [0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/truonghai/substrate-node-template/pallets/demo/src/lib.rs:20:5[0m
 [0m   [0m[0m[1m[38;5;12m|[0m
@@ -6,6 +5,16 @@
 [0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
 [0m   [0m[0m[1m[38;5;12m|[0m
 [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `pallet-demo` (lib) generated 1 warning
+[0m[0m[1m[32m   Compiling[0m pallet-kitties v4.0.0-dev (/home/truonghai/substrate-node-template/pallets/kitties)
+[0m[1m[33mwarning[0m[0m[1m: unused variable: `who`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/truonghai/substrate-node-template/pallets/loosely-coupling/src/lib.rs:82:8[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m82[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m            let who = ensure_signed(origin)?;[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m [0m[0m[1m[33mhelp: if this is intentional, prefix it with an underscore: `_who`[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_variables)]` on by default[0m
 
 [0m[1m[33mwarning[0m[0m[1m: unused variable: `who`[0m
 [0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/truonghai/substrate-node-template/pallets/tightly-coupling/src/lib.rs:79:8[0m
@@ -21,21 +30,12 @@
 [0m[1m[38;5;12m94[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m            let who = ensure_signed(origin)?;[0m
 [0m   [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m [0m[0m[1m[33mhelp: if this is intentional, prefix it with an underscore: `_who`[0m
 
-[0m[1m[33mwarning[0m[0m[1m: unused variable: `who`[0m
-[0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/truonghai/substrate-node-template/pallets/loosely-coupling/src/lib.rs:82:8[0m
-[0m   [0m[0m[1m[38;5;12m|[0m
-[0m[1m[38;5;12m82[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0m            let who = ensure_signed(origin)?;[0m
-[0m   [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m [0m[0m[1m[33mhelp: if this is intentional, prefix it with an underscore: `_who`[0m
-[0m   [0m[0m[1m[38;5;12m|[0m
-[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_variables)]` on by default[0m
-
-[0m[0m[1m[33mwarning[0m[1m:[0m `pallet-demo` (lib) generated 1 warning
-[0m[0m[1m[33mwarning[0m[1m:[0m `pallet-tightly-coupling` (lib) generated 2 warnings
 [0m[0m[1m[33mwarning[0m[1m:[0m `pallet-loosely-coupling` (lib) generated 1 warning
+[0m[0m[1m[33mwarning[0m[1m:[0m `pallet-tightly-coupling` (lib) generated 2 warnings
 [0m[1m[33mwarning[0m[0m[1m: unused import: `sp_io::hashing::blake2_128`[0m
-[0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/truonghai/substrate-node-template/pallets/kitties/src/lib.rs:14:5[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0m/home/truonghai/substrate-node-template/pallets/kitties/src/lib.rs:24:5[0m
 [0m   [0m[0m[1m[38;5;12m|[0m
-[0m[1m[38;5;12m14[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0muse sp_io::hashing::blake2_128;[0m
+[0m[1m[38;5;12m24[0m[0m [0m[0m[1m[38;5;12m|[0m[0m [0m[0muse sp_io::hashing::blake2_128;[0m
 [0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
 [0m   [0m[0m[1m[38;5;12m|[0m
 [0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
@@ -43,4 +43,4 @@
 [0m[0m[1m[32m   Compiling[0m node-template-runtime v4.0.0-dev (/home/truonghai/substrate-node-template/runtime)
 [0m[0m[1m[33mwarning[0m[1m:[0m `pallet-kitties` (lib) generated 1 warning
 [0m[0m[1m[32m   Compiling[0m node-template-runtime-wasm v1.0.0 (/home/truonghai/substrate-node-template/target/release/wbuild/node-template-runtime)
-[0m[0m[1m[32m    Finished[0m release [optimized] target(s) in 8.73s
+[0m[0m[1m[32m    Finished[0m release [optimized] target(s) in 8.41s

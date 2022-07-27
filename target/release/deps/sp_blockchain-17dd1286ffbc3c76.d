@@ -1,0 +1,10 @@
+/home/truonghai/substrate-node-template/target/release/deps/sp_blockchain-17dd1286ffbc3c76.rmeta: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/backend.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/error.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/header_metadata.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/libsp_blockchain-17dd1286ffbc3c76.rlib: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/backend.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/error.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/header_metadata.rs
+
+/home/truonghai/substrate-node-template/target/release/deps/sp_blockchain-17dd1286ffbc3c76.d: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/backend.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/error.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/header_metadata.rs
+
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/lib.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/backend.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/error.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/primitives/blockchain/src/header_metadata.rs:

@@ -1,0 +1,10 @@
+/home/truonghai/substrate-node-template/target/release/wbuild/node-template-runtime/target/wasm32-unknown-unknown/release/deps/pallet_aura-e1ca150d8d42fd72.rmeta: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/migrations.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/mock.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/tests.rs
+
+/home/truonghai/substrate-node-template/target/release/wbuild/node-template-runtime/target/wasm32-unknown-unknown/release/deps/libpallet_aura-e1ca150d8d42fd72.rlib: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/migrations.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/mock.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/tests.rs
+
+/home/truonghai/substrate-node-template/target/release/wbuild/node-template-runtime/target/wasm32-unknown-unknown/release/deps/pallet_aura-e1ca150d8d42fd72.d: /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/lib.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/migrations.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/mock.rs /home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/tests.rs
+
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/lib.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/migrations.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/mock.rs:
+/home/truonghai/.cargo/git/checkouts/substrate-7e08433d4c370a21/257cdb5/frame/aura/src/tests.rs:

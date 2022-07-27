@@ -1,1 +1,1 @@
-/home/truonghai/substrate-node-template/target/release/libpallet_tightly_coupling.rlib: /home/truonghai/substrate-node-template/pallets/template/src/lib.rs /home/truonghai/substrate-node-template/pallets/tightly-coupling/src/lib.rs
+/home/truonghai/substrate-node-template/target/release/libpallet_tightly_coupling.rlib: /home/truonghai/substrate-node-template/pallets/template/src/benchmarking.rs /home/truonghai/substrate-node-template/pallets/template/src/lib.rs /home/truonghai/substrate-node-template/pallets/tightly-coupling/src/lib.rs

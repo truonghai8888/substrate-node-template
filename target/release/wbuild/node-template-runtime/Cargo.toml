@@ -1,6 +1,11 @@
 [dependencies.wasm-project]
 default-features = false
-features = []
+features = [
+    'hex-literal',
+    'frame-benchmarking',
+    'runtime-benchmarks',
+    'frame-system-benchmarking',
+]
 package = 'node-template-runtime'
 path = '/home/truonghai/substrate-node-template/runtime'
 
