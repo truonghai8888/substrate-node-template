@@ -61,7 +61,9 @@ pub mod pallet {
 	pub type Dna = Vec<u8>;
 
 	// Set Gender type in kitty struct
-	#[derive(TypeInfo, Encode, Decode, Debug)]
+	// #[derive(TypeInfo, Encode, Decode, Debug)]
+	#[derive(Clone, Encode, Decode, PartialEq, Copy, RuntimeDebug, TypeInfo, MaxEncodedLen)]
+	#[cfg_attr(feature = "std", derive(Serialize, Deserialize))]
 	pub enum Gender {
 		Male,
 		Female,
@@ -117,6 +119,8 @@ pub mod pallet {
 		CantBreed,
 	}
 
+
+
 	// Events
 	#[pallet::event]
 	#[pallet::generate_deposit(pub(super) fn deposit_event)]
@@ -151,6 +155,28 @@ pub mod pallet {
 		BoundedVec<Vec<u8>, T::MaxKittiesOwned>,
 		ValueQuery,
 	>;
+
+	#[pallet::genesis_config]
+	pub struct GenesisConfig<T: Config> {
+		pub kitties: Vec<(T::AccountId, Dna, Gender)>,
+	}
+
+	#[cfg(feature = "std")]
+	impl<T: Config> Default for GenesisConfig<T> {
+		fn default() -> GenesisConfig<T> {
+			GenesisConfig { kitties: vec![] }
+		}
+	}
+
+	#[pallet::genesis_build]
+	impl<T: Config> GenesisBuild<T> for GenesisConfig<T> {
+		fn build(&self) {
+			for (account, dna, gender) in &self.kitties {
+				
+				assert!(Pallet::<T>::mint(account, b"hai".to_vec(), *gender).is_ok());
+			}
+		}
+	}
 
 	#[pallet::call]
 	impl<T: Config> Pallet<T> {

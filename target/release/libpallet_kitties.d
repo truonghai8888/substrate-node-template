@@ -1,1 +1,1 @@
-/home/truonghai/substrate-node-template/target/release/libpallet_kitties.rlib: /home/truonghai/substrate-node-template/pallets/kitties/src/benchmarking.rs /home/truonghai/substrate-node-template/pallets/kitties/src/lib.rs
+/home/truonghai/substrate-node-template/target/release/libpallet_kitties.rlib: /home/truonghai/substrate-node-template/pallets/kitties/src/lib.rs
