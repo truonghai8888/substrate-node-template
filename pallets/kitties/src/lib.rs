@@ -172,8 +172,7 @@ pub mod pallet {
 	impl<T: Config> GenesisBuild<T> for GenesisConfig<T> {
 		fn build(&self) {
 			for (account, dna, gender) in &self.kitties {
-				
-				assert!(Pallet::<T>::mint(account, b"hai".to_vec(), *gender).is_ok());
+				assert!(Pallet::<T>::mint(account, dna.clone(), *gender).is_ok());
 			}
 		}
 	}

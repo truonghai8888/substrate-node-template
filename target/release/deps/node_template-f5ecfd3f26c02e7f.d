@@ -12,4 +12,4 @@ node/src/rpc.rs:
 
 # env-dep:CARGO_PKG_AUTHORS=Substrate DevHub <https://github.com/substrate-developer-hub>
 # env-dep:CARGO_PKG_DESCRIPTION=A fresh FRAME-based Substrate node, ready for hacking.
-# env-dep:SUBSTRATE_CLI_IMPL_VERSION=4.0.0-dev-8d3006e6007
+# env-dep:SUBSTRATE_CLI_IMPL_VERSION=4.0.0-dev-7333a62dd5d
