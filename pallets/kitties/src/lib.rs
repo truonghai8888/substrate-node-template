@@ -158,7 +158,7 @@ pub mod pallet {
 
 	#[pallet::genesis_config]
 	pub struct GenesisConfig<T: Config> {
-		pub kitties: Vec<(T::AccountId, Dna, Gender)>,
+		pub kitties: Vec<(T::AccountId, Dna)>,
 	}
 
 	#[cfg(feature = "std")]
@@ -171,8 +171,9 @@ pub mod pallet {
 	#[pallet::genesis_build]
 	impl<T: Config> GenesisBuild<T> for GenesisConfig<T> {
 		fn build(&self) {
-			for (account, dna, gender) in &self.kitties {
-				assert!(Pallet::<T>::mint(account, dna.clone(), *gender).is_ok());
+			for (account, dna) in &self.kitties {
+				
+				assert!(Pallet::<T>::mint(account, dna.clone(), Gender::Male).is_ok());
 			}
 		}
 	}

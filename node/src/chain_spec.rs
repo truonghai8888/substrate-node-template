@@ -156,7 +156,10 @@ fn testnet_genesis(
 			genesis_value: 10u32,
 		},
 		kitties: KittiesConfig {
-			kitties: vec![]
+			kitties: vec![
+				(get_account_id_from_seed::<sr25519::Public>("Alice"),b"haiTX".to_vec()),
+				(get_account_id_from_seed::<sr25519::Public>("Alice"),b"haiTX2".to_vec())
+				]
 		},
 	}
 }
